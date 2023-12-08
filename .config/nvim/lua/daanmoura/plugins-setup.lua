@@ -32,7 +32,8 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim")
 
 	-- colorshceme
-	use("bluz71/vim-nightfly-colors")
+	-- use("bluz71/vim-nightfly-colors")
+	use("lunarvim/primer.nvim")
 
 	-- tmux & split window navigation
 	use("christoomey/vim-tmux-navigator")
@@ -103,6 +104,12 @@ return packer.startup(function(use)
 
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
+
+	-- gitlab
+	use("git@gitlab.com:gitlab-org/editor-extensions/gitlab.vim.git")
+
+	-- gitblame
+	use("APZelos/blamer.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()

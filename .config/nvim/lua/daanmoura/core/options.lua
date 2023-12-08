@@ -36,3 +36,5 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+
+vim.o.completeopt = "menu,menuone"

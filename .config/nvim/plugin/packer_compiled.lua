@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
     url = "https://github.com/vim-scripts/ReplaceWithRegister"
   },
+  ["blamer.nvim"] = {
+    loaded = true,
+    path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/blamer.nvim",
+    url = "https://github.com/APZelos/blamer.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -113,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  ["gitlab.vim.git"] = {
+    loaded = true,
+    path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/gitlab.vim.git",
+    url = "git@gitlab.com:gitlab-org/editor-extensions/gitlab.vim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -201,6 +211,11 @@ _G.packer_plugins = {
     path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["primer.nvim"] = {
+    loaded = true,
+    path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/primer.nvim",
+    url = "https://github.com/lunarvim/primer.nvim"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
@@ -220,11 +235,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
-  },
-  ["vim-nightfly-colors"] = {
-    loaded = true,
-    path = "/Users/danielmoura/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
-    url = "https://github.com/bluz71/vim-nightfly-colors"
   },
   ["vim-surround"] = {
     loaded = true,

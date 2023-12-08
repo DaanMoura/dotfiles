@@ -185,6 +185,9 @@ export PATH="${M2_HOME}/bin:${PATH}"
 # nvim alias
 alias vim="nvim"
 
+# path to your gitlab token (to use on neovim plugin)
+source /Users/danielmoura/.gitlab-token.sh
+
 alias c="clear"
 
 # Fig post block. Keep at the bottom of this file.
